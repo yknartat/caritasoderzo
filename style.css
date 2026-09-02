@@ -77,6 +77,17 @@ header.site .wrap {
   gap: 12px;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.brand-logo {
+  display: block;
+  height: 56px;
+  width: auto;
+}
 .wordmark {
   font-family: 'Source Serif 4', serif;
   font-weight: 700;
@@ -228,4 +239,5 @@ footer.site .legal {
   nav.main a { margin: 0 18px 0 0; }
   .service-item { grid-template-columns: 1fr; gap: 6px; }
   .contact-grid, .addr-grid { grid-template-columns: 1fr; }
+  .brand-logo { height: 44px; }
 }
